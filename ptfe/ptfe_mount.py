@@ -1,21 +1,22 @@
-"""Slatwall PTFE mounts (hook geometry lives in slathook.py).
+"""Slatwall PTFE mounts (the hook comes from the slathook package).
 
 World frame (as mounted): X = along wall, Y = out of wall (wall face at Y=0), Z = up.
 Slot opening spans Z = 0 .. SLOT_OPEN.
 
-Outputs (in ./stl):
+Outputs (in ptfe/stl):
   swivel_base.stl      hooks into a slatwall slot (verified to fit ProSlat carbon fiber); bore + rear counterbore
   swivel_guide_5.stl   block with 5 full PTFE sleeves + split snap axle.
                        Hang the base, then push the axle in from the front until it clicks.
                        Rotates about the wall-normal axis so tubes can run at any angle.
   sleeve_N.stl         standalone bundling sleeve, N tubes in a row (not slatwall).
-  fit_test.stl         two hook coupons (1=zL30_19 2=zF0; see slathook.HOOKS) to check fit on your panel first.
 All STLs are in print orientation (no supports needed).
 """
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from build123d import *
 
-from slathook import NECK_TOP, hooked_body, on_side, fit_test
+from slathook import NECK_TOP, hooked_body, on_side
 
 # ---------------- PTFE ----------------
 PTFE_HOLE = 4.4      # 4 mm OD tube, sliding fit (4.2 printed too tight in PETG)
@@ -129,7 +130,6 @@ if __name__ == "__main__":
     parts = {
         "swivel_base": on_side(swivel_base()),
         "swivel_guide_5": swivel_guide(5),
-        "fit_test": fit_test(),
         **{f"sleeve_{n}": sleeve(n) for n in (2, 3, 4, 5)},
     }
     def holes_clear(part, pts, d):

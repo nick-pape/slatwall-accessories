@@ -1,5 +1,11 @@
 """2D tilt-in simulator for slatwall hooks.  Y = out of wall (face at 0), Z = up.
-BFS over (theta, dy, dz) poses from the seated pose to fully outside the wall."""
+
+BFS over (theta, dy, dz) poses from the seated pose to fully outside the wall: if the hook
+can get out, it can go in. Use it to screen a new hook shape before printing it:
+
+    uv run python -m slathook.tiltsim                  # checks slathook.HOOK
+    from slathook.tiltsim import check; check(my_hook_dict)
+"""
 import math, collections
 from shapely.geometry import Polygon, LineString, box
 from shapely import affinity
@@ -47,7 +53,16 @@ def can_insert(part, lip, step=0.5, dth=2.0, **kw):
                 q.append(n)
     return False
 
+def check(hook=None, lips=None, cav_back=15.5):
+    """True if `hook` (param dict or history name) inserts for every lip in LIP_RANGE."""
+    from .hook import HOOK, LIP_RANGE, hook_profile_pts, _params
+    h = _params(hook or HOOK)
+    poly = Polygon(hook_profile_pts(4.0, -10.0, h["hs"], h))
+    res = {L: can_insert(poly, L, cav_top=h["ztop"] + 2, cav_back=cav_back) for L in (lips or LIP_RANGE)}
+    for L, r in res.items():
+        print(f"  lip {L}: {r}")
+    return all(r is True for r in res.values())
+
+
 if __name__ == "__main__":
-    hk = official_hook()
-    for lip in (4.0, 5.0, 6.0, 6.5, 7.0, 7.5, 8.0, 9.0):
-        print(f"official wire hook, lip {lip}: {can_insert(hk, lip)}")
+    print("slathook.HOOK:", "PASS" if check() else "FAIL")
