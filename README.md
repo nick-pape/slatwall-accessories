@@ -10,10 +10,10 @@ helpers. First set: PTFE tube routing for 3D printers.
 
 | File | What |
 |---|---|
-| `swivel_base.stl` | Hooks into a slot (designed to fit Proslat slatwall); bore + rear counterbore for the guide's axle |
+| `swivel_base.stl` | Hooks into a slot (designed to fit Proslat slatwall, measured on a carbon-fiber panel); bore + rear counterbore for the guide's axle |
 | `swivel_guide_5.stl` | Block with 5 full 4 mm PTFE sleeves and a split snap axle. Hang the base, push the axle in from the front until it clicks; rotates to any angle |
 | `sleeve_2..5.stl` | Standalone bundling sleeves for 2-5 tubes (not slatwall) |
-| `fit_test.stl` | Small hook coupons to check fit on your panel before printing real parts |
+| `fit_test.stl` | Small hook coupons to check fit on your Proslat panel before printing real parts |
 
 `slatwall_ptfe_plate.3mf` / `hook_fit_test.3mf` are ready-made PrusaSlicer projects
 (MK4 Input Shaper, HF0.6 nozzle, Prusament PETG; 0.15 mm / 0.40 mm layers).
