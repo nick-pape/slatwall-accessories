@@ -4,12 +4,12 @@ World frame (as mounted): X = along wall, Y = out of wall (wall face at Y=0), Z 
 Slot opening spans Z = 0 .. SLOT_OPEN.
 
 Outputs (in ./stl):
-  swivel_base.stl      hooks into a Proslat slatwall slot; bore + rear counterbore
+  swivel_base.stl      hooks into a slatwall slot (verified to fit ProSlat carbon fiber); bore + rear counterbore
   swivel_guide_5.stl   block with 5 full PTFE sleeves + split snap axle.
                        Hang the base, then push the axle in from the front until it clicks.
                        Rotates about the wall-normal axis so tubes can run at any angle.
   sleeve_N.stl         standalone bundling sleeve, N tubes in a row (not slatwall).
-  fit_test.stl         two hook coupons (1=zL30_19 2=zF0; see slathook.HOOKS) to check fit on your Proslat panel first.
+  fit_test.stl         two hook coupons (1=zL30_19 2=zF0; see slathook.HOOKS) to check fit on your panel first.
 All STLs are in print orientation (no supports needed).
 """
 from pathlib import Path

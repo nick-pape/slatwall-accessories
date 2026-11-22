@@ -4,16 +4,16 @@ Parametric [build123d](https://github.com/gumyr/build123d) slatwall parts, plus 
 helpers. First set: PTFE tube routing for 3D printers.
 
 > The hook in `slathook.py` was designed from my own measurements of my panel and refined over six
-> fit tests. It is **not** a generic 3"-pitch slatwall hook. Check fit with `fit_test.stl` first.
+> fit tests. **Verified to fit ProSlat carbon fiber slatwall.** It is **not** a generic 3"-pitch slatwall hook. Check fit with `fit_test.stl` first.
 
 ## Parts (`stl/`, all in print orientation, no supports)
 
 | File | What |
 |---|---|
-| `swivel_base.stl` | Hooks into a slot (designed to fit Proslat slatwall, measured on a carbon-fiber panel); bore + rear counterbore for the guide's axle |
+| `swivel_base.stl` | Hooks into a slatwall slot; bore + rear counterbore for the guide's axle |
 | `swivel_guide_5.stl` | Block with 5 full 4 mm PTFE sleeves and a split snap axle. Hang the base, push the axle in from the front until it clicks; rotates to any angle |
 | `sleeve_2..5.stl` | Standalone bundling sleeves for 2-5 tubes (not slatwall) |
-| `fit_test.stl` | Small hook coupons to check fit on your Proslat panel before printing real parts |
+| `fit_test.stl` | Small hook coupons to check fit on your panel before printing real parts |
 
 `slatwall_ptfe_plate.3mf` / `hook_fit_test.3mf` are ready-made PrusaSlicer projects
 (MK4 Input Shaper, HF0.6 nozzle, Prusament PETG; 0.15 mm / 0.40 mm layers).
@@ -51,6 +51,6 @@ uv run python make_3mf.py hook_fit_test     # -> hook_fit_test.3mf     (uses cfg
 ## Disclaimer
 
 Independent hobby project. Not affiliated with, endorsed by, or made from any drawings or files
-of any slatwall manufacturer. "Proslat" is a trademark of its owner and is used here only to
+of any slatwall manufacturer. "ProSlat" is a trademark of its owner and is used here only to
 describe what these parts are designed to fit. Dimensions are my own measurements; no warranty --
 don't hang anything valuable or heavy on printed parts without testing.
