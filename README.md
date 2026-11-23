@@ -85,6 +85,24 @@ minimalist and organic). The bracket spans two slots: the hook in one, a rest ta
   about 45 g and 14.4 kg safe per bracket (simulated; load-test before trusting it)
 - STLs for every design: `bracket/out/bracket_*.stl`
 
+## Shelf generator (`bracket/shelf_gen.py`)
+
+One-piece shelves printed standing (profile on the bed, width = print height), built from three
+identical twin-wall ladders with joints only where they overlap. Give it a size; it picks the shape:
+
+```sh
+cd bracket
+uv run python shelf_gen.py 152.4 101.6 --lip 1.5 --open    # 6" x 4" shelf with a chamfered lip
+uv run python shelf_gen.py 215 230                          # the biggest that fits an MK4
+```
+
+- **Rating:** a water column over the deck (`--water-cm 20` default, about 2-liter bottles packed
+  edge to edge), or a fixed `--load` in kg. Checked for creep, strength, buckling and tip sag.
+- **Shapes it chooses between:** an L (deck + short ladder stub, stub length computed) for shallow
+  shelves, a 45-degree triangle with its foot on the wall face, and a triangle into the next slot
+  once a 45-degree diagonal would reach it. The lightest one that passes wins.
+- `variants.py W D` puts the best L and best triangle, with and without the lip, on one plate.
+
 ## Layout
 
 ```

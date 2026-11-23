@@ -14,8 +14,10 @@ if len(sys.argv) < 4:
 OUT, CFG = Path(sys.argv[1]), Path(sys.argv[2])
 PLATE = []                       # [(stl path, count)]
 for a in sys.argv[3:]:
-    f, _, c = a.partition(":")
-    PLATE.append((Path(f), int(c or 1)))
+    f, _, c = a.rpartition(":")
+    if not c.isdigit():            # no ":count" suffix (a Windows drive colon is not a count)
+        f, c = a, "1"
+    PLATE.append((Path(f), int(c)))
 
 
 def load(path):

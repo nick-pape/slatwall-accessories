@@ -10,3 +10,5 @@ out/arch*.stl
 out/d200_*.png
 out/truss*
 out/catalog.png
+out/print/*.gcode
+out/extruded_sized.json.bak
