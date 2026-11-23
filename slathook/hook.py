@@ -27,7 +27,7 @@ import math
 from build123d import *
 
 # ---------------- panel (measured) ----------------
-SLOT_PITCH = 121.5   # slot-to-slot (one slot per slat)
+SLOT_PITCH = 120.65  # slot-to-slot, user-measured top-to-top 4 3/4" (2026-11-22); research said ~121.5
 SLOT_OPEN = 10.0     # vertical opening at the face
 LIP_T = 4.3          # face lip thickness above the slot
 LIP_RANGE = (4.3, 5.0)  # lip thicknesses every hook must insert with (tiltsim)

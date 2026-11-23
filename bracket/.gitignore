@@ -1,0 +1,12 @@
+# generated intermediates (rebuild with the scripts)
+out/*.npz
+out/*.pkl
+out/log_*.txt
+out/r3d/
+out/sil_*.png
+out/cat_*_diag.png
+out/arch*.png
+out/arch*.stl
+out/d200_*.png
+out/truss*
+out/catalog.png

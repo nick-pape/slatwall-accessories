@@ -67,11 +67,23 @@ Rules for new accessories:
   the slat above while you tilt the part in, so hang bodies below the slot.
 - **Don't fill in the hook.** Solid wedge-shaped hooks won't go in: the face lip has to swing into
   the open space between the bar and the riser.
-- For bodies taller than about 125 mm, add a second hook one slot down (`SLOT_PITCH`, 121.5 mm)
+- For bodies taller than about 125 mm, add a second hook one slot down (`SLOT_PITCH`, 120.65 mm = 4 3/4")
   so the part can't rotate.
 - If you change the hook shape, check it with the insertion simulator first:
   `uv run python -m slathook.tiltsim`. It does a 2D search of the tilt-in motion.
   [`slathook/history.py`](slathook/history.py) has every shape tried and what each fit test showed.
+
+## Shelf bracket study (`bracket/`)
+
+A physics-driven search for the strongest shelf bracket per gram of plastic: a small 2D FEA
+solver with one-sided wall contact, creep and buckling checks, topology optimization, truss
+layout optimization and parameter searches over nine designs (architecture-inspired, optimized,
+minimalist and organic). The bracket spans two slots: the hook in one, a rest tab in the next.
+
+- Report: `bracket/report/bracket_study.html` (open in a browser)
+- Print-ready winner: `bracket/out/print/hanging_arch_rest.3mf`, the hanging arch, 0.40 mm layers in PETG,
+  about 45 g and 14.4 kg safe per bracket (simulated; load-test before trusting it)
+- STLs for every design: `bracket/out/bracket_*.stl`
 
 ## Layout
 
@@ -79,6 +91,7 @@ Rules for new accessories:
 slathook/   the reusable hook package: hook.py (profile + helpers), tiltsim.py, history.py
 hook/       generated hook files: DXF/SVG profile, STEP bodies, fit-test STL + 3MF
 ptfe/       PTFE parts: ptfe_mount.py, stl/, print plate 3MF
+bracket/    shelf bracket study: FEA solver, optimizers, designs, report
 tools/      make_3mf.py (packs STLs into a PrusaSlicer project), render.py, prusa/*.ini configs
 docs/img/   README images
 build.py    rebuilds everything
