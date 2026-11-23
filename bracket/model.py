@@ -16,8 +16,8 @@ from shapely import contains_xy
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from slathook import HOOK, NECK_TOP, SLOT_PITCH, SLOT_OPEN, hook_profile_pts
 from fea import Grid, Contact
+from shelf_geom import REST_TAB  # noqa: E402
 
-REST_TAB = (4.0, 7.0)   # rest tab: depth into the lower slot, height (slot is 10 open)
 E_PETG = 1600.0      # MPa, Prusament PETG datasheet tensile modulus 1.5-1.6 GPa (was 2.0 in the sizing runs)
 NU = 0.38
 

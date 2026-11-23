@@ -15,9 +15,7 @@ from shapely import contains_xy
 
 W = 200.0
 TARGET_KG = 20.0
-W040, L040 = 0.68, 0.40
-S040 = W040 - L040 * (1 - math.pi / 4)
-P = lambda n: round(W040 + (n - 1) * S040, 4)       # n perimeters at 0.40 mm layers
+from shelf_geom import W040, L040, S040, P, ladder  # noqa: F401  (shared with the shelf generator)
 
 
 def right_triangle(deck=4.0, diag=4.0, back=0.0, n_posts=0, post_w=P(2)):
@@ -59,21 +57,6 @@ def sierpinski(levels=2, deck=P(2), diag=P(2), web=P(2), back=0.0, skew=0.5, gra
         shapes.append(box(0, C[1], back, 0.0))
     shapes += [strip(LineString([u, v]), web if (web_fine is None or lv <= coarse) else web_fine) for u, v, lv in lines]
     return finish(shapes, smooth=1.0)
-
-
-def ladder(p0, p1, S, wall, lace, pitch):
-    """Twin-wall member from p0 to p1 (centreline): two walls S apart + zig-zag lacing."""
-    from catalog import strip
-    p0, p1 = np.asarray(p0, float), np.asarray(p1, float)
-    L = np.linalg.norm(p1 - p0); u = (p1 - p0) / L; nrm = np.array([-u[1], u[0]])
-    A0, A1, B0, B1 = p0 + nrm * S / 2, p1 + nrm * S / 2, p0 - nrm * S / 2, p1 - nrm * S / 2
-    shapes = [strip(LineString([A0, A1]), wall), strip(LineString([B0, B1]), wall)]
-    k = max(2, int(round(L / pitch)))
-    for i in range(k):
-        s0, s1 = i / k, (i + 1) / k
-        a, b = (A0 + (A1 - A0) * s0, B0 + (B1 - B0) * s1) if i % 2 == 0 else (B0 + (B1 - B0) * s0, A0 + (A1 - A0) * s1)
-        shapes.append(strip(LineString([a, b]), lace))
-    return shapes
 
 
 def twin_both(S=8.0, wall=P(2), lace=P(2), lace_pitch=12.0, smooth=1.0, node_r=0.0, spine=0.0, node_len=0.0,

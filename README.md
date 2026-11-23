@@ -87,6 +87,14 @@ minimalist and organic). The bracket spans two slots: the hook in one, a rest ta
 
 ## Shelf generator (`bracket/shelf_gen.py`)
 
+**In the browser:** https://nick-pape.github.io/slatwall-accessories/shelf/ (no install; 3D preview,
+STL or ready-to-slice 3MF). It runs the same geometry code (`bracket/shelf_geom.py`) in Pyodide and
+looks the design up in a capacity table (`site/shelf/table.json`) instead of solving: the FEA is a
+2D profile x width, so safe load and mass scale exactly with width and one solve per depth covers
+every width. Rebuild the table after changing the geometry or the FEA with
+`uv run python bracket/shelf_table.py`; the site deploys from `site/` via GitHub Actions
+(`tools/build_site.py`).
+
 One-piece shelves printed standing (profile on the bed, width = print height), built from three
 identical twin-wall ladders with joints only where they overlap. Give it a size; it picks the shape:
 

@@ -19,88 +19,12 @@ from shapely.geometry import LineString, Point, Polygon, box
 from shapely.ops import unary_union
 from shapely import contains_xy
 
-from extruded import ladder, P
-from catalog import RF, TOP, HOOKP
-from model import Bracket, REST_TAB
-from slathook import SLOT_OPEN
+from shelf_geom import (TOP, RF, SIZES, LIP_T, LIP_X0, frame, candidates, lip_profile, side_lips)  # noqa: F401
+from model import Bracket
 from evaluate import evaluate
 
 HERE = Path(__file__).parent
 SAG_RATIO = 300.0      # elastic tip sag <= depth / 300 under the rated load (creep roughly doubles it over time)
-SIZES = [(2, 6.0), (2, 8.0), (3, 6.0), (3, 8.0), (3, 10.0), (4, 10.0)]   # (perimeters, ladder spacing), light -> heavy
-
-
-def _band(p, q, half, ext):
-    u = (q - p) / np.linalg.norm(q - p)
-    return LineString([p - u * ext, q + u * ext]).buffer(half, cap_style=2)
-
-
-def _line_x(p, q, z):            # x where line p-q crosses height z
-    return p[0] + (q[0] - p[0]) * (z - p[1]) / (q[1] - p[1])
-
-
-def frame(depth, foot_z=None, rest=False, spine_len=None, S=6.0, perims=2, pitch=10.0, smooth=0.4, nose_r=3.0,
-          inner_r=None):
-    """Twin-wall ladders: deck always; spine down the wall; diagonal from the foot to the nose unless
-    it's an L. Joints are solid ONLY where two ladders overlap; ladder ends are capped."""
-    w = P(perims)
-    half = S / 2 + w / 2
-    A = np.array([half, TOP - half]); B = np.array([depth - half, TOP - half])
-    if rest:
-        C = np.array([half, RF + half])
-    elif spine_len is not None:
-        C = np.array([half, TOP - spine_len + half])
-    else:
-        C = np.array([half, foot_z])
-    ext = 4 * S
-    diag = spine_len is None
-    lines = {"deck": (A, B), "spine": (C, A)} | ({"diag": (C, B)} if diag else {})
-    # outer envelope: deck top, wall face, (diagonal underside), front x <= depth, bottom
-    if diag:
-        u = (B - C) / np.linalg.norm(B - C); n = np.array([u[1], -u[0]])          # outward (down/right) normal
-        if n[1] > 0: n = -n
-        c0, b0 = C + n * half, B + n * half
-        x_top = _line_x(c0, b0, TOP)
-        z_wall = c0[1] + (0 - c0[0]) * (b0[1] - c0[1]) / (b0[0] - c0[0])
-        outer = Polygon([(0, TOP), (x_top, TOP), (0, z_wall)])
-    else:
-        outer = unary_union([box(0, TOP - 2 * half, depth, TOP), box(0, C[1] - half, 2 * half, TOP)])
-    z_floor = (RF if rest else C[1] - half)
-    outer = outer.intersection(box(0, z_floor, depth, TOP))
-    bands = {k: _band(p, q, half, ext) for k, (p, q) in lines.items()}
-    lad = unary_union(sum((ladder(p - (q - p) / np.linalg.norm(q - p) * ext, q + (q - p) / np.linalg.norm(q - p) * ext,
-                                  S, w, w, pitch) for p, q in lines.values()), []))
-    # joints = exactly where two ladders overlap; the OUTLINE is rounded at its corners (nose, foot),
-    # except the top corner where the hook attaches, which stays square
-    pairs = [("deck", "spine")] + ([("deck", "diag"), ("spine", "diag")] if diag else [])
-    joints = [bands[i].intersection(bands[j]) for i, j in pairs]
-    caps = [box(depth - w, TOP - 2 * half, depth, TOP)]
-    if not diag:
-        caps.append(box(0, C[1] - half, 2 * half, C[1] - half + w))
-    env = outer.buffer(-nose_r, join_style=1).buffer(nose_r, join_style=1)
-    keep_square = [box(0, TOP - 2 * half, 2 * half, TOP)]                     # under the hook
-    if rest:
-        keep_square.append(box(0, RF, 2 * half, RF + REST_TAB[1] + 1))       # behind the rest tab
-    env = unary_union([env] + [k.intersection(outer) for k in keep_square])
-    body = unary_union([lad, *joints, *caps]).intersection(env)
-    # fillets in the inside corners of the open triangle (or the L's inside corner)
-    R = 3.0 if inner_r is None else inner_r          # small inside-corner fillet (mm)
-    if R > 0:
-        if diag:
-            hole = env.difference(unary_union(list(bands.values())))
-            hole = max(getattr(hole, "geoms", [hole]), key=lambda g: g.area)
-            fill = hole.difference(hole.buffer(-R, join_style=1).buffer(R, join_style=1))
-        else:             # L: one quarter-circle fillet under the deck, sized to fit the stub
-            qx, qz = 2 * half, TOP - 2 * half
-            r = min(R, qz - (C[1] - half) - 1.0)
-            fill = box(qx, qz - r, qx + r, qz).difference(Point(qx + r, qz - r).buffer(r, quad_segs=32)) if r > 1 else Polygon()
-        body = unary_union([body, fill])
-    if smooth:
-        body = body.buffer(smooth, join_style=1).buffer(-smooth, join_style=1)
-    parts = [body, HOOKP]
-    if rest:
-        parts += [box(-REST_TAB[0], RF, 0.01, RF + REST_TAB[1])]
-    return unary_union(parts), z_floor
 
 
 def evaluate_geom(geom, depth, width, bottom, rest):
@@ -111,22 +35,6 @@ def evaluate_geom(geom, depth, width, bottom, rest):
     tip = max(r["cases"]["uniform"]["tip_mm"], 1e-6)                 # mm of tip sag per 100 N, even load
     lim["sag"] = (depth / SAG_RATIO) / tip * 100.0 / 9.81
     return min(lim.values()), r["mass"], lim
-
-
-def candidates(depth):
-    lower_slot_top = RF + SLOT_OPEN
-    out = []
-    for sl in (20, 30, 45, 60):                                  # L-shapes: spine pad lengths
-        if sl < 0.9 * depth + 20:
-            out.append((f"L{sl}", dict(spine_len=sl)))
-    for name, ang in (("T45", 45), ("T55", 55)):
-        fz = TOP - depth * math.tan(math.radians(ang))
-        if fz > lower_slot_top + 6:                              # foot must press on wall face above the next slot
-            out.append((name, dict(foot_z=fz)))
-    # into the next slot only once a 45 deg diagonal would reach it (steeper than that is wasteful)
-    if TOP - depth <= lower_slot_top + 6:
-        out.append(("slot", dict(rest=True)))
-    return out
 
 
 def generate(width, depth, load_kg, log=print):
@@ -146,8 +54,6 @@ def generate(width, depth, load_kg, log=print):
     return best
 
 
-LIP_T = 1.3            # lip top width (2 lines); the inner face is chamfered 45 deg below that
-LIP_X0 = 5.0           # side lips start this far from the wall (tilt-in clearance checked with tiltsim)
 
 
 def to_part_lip(geom, width, depth, lip=0.0):
@@ -157,16 +63,12 @@ def to_part_lip(geom, width, depth, lip=0.0):
     from build123d import Plane, Polygon as BPoly, extrude, BuildSketch, Location
     if lip <= 0:
         return to_part(geom, width, width)
-    h, t = lip, LIP_T
-    front = Polygon([(depth - t - h, TOP), (depth, TOP), (depth, TOP + h), (depth - t, TOP + h)])
-    front = front.union(box(depth - 3.5, TOP - 3.5, depth, TOP))          # square the rounded top-front corner under the lip
-    part = to_part(unary_union([geom, front]), width, width)
+    part = to_part(unary_union([geom, lip_profile(depth, lip)]), width, width)
     part = part.translate((0, 0, -part.bounding_box().min.Z))          # body spans z = 0..width
-    for pts in (((TOP, 0), (TOP + h, 0), (TOP + h, t), (TOP, t + h)),
-                ((TOP, width), (TOP + h, width), (TOP + h, width - t), (TOP, width - t - h))):
-        with BuildSketch(Plane.YZ.offset(LIP_X0)) as sk:
+    for pts, x0 in side_lips(width, lip):
+        with BuildSketch(Plane.YZ.offset(x0)) as sk:
             BPoly(*pts, align=None)
-        part = part + extrude(sk.sketch, amount=depth - LIP_X0)
+        part = part + extrude(sk.sketch, amount=depth - x0)
     return part
 
 

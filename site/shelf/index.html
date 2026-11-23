@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slatwall Shelf Generator</title>
+<meta name="description" content="Generate a one-piece, FEA-sized slatwall shelf for any width and depth, and download it as STL or a ready-to-slice 3MF.">
+<link rel="stylesheet" href="../common/style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+<script src="https://cdn.jsdelivr.net/pyodide/v0.29.5/full/pyodide.js"></script>
+</head>
+<body>
+<header>
+  <h1>Slatwall shelf generator</h1>
+  <p>One-piece printed shelf for slatwall, sized by finite-element analysis. Verified to fit ProSlat carbon fiber slatwall. <a href="../">All generators</a></p>
+</header>
+<main>
+  <div class="app">
+    <section class="panel" aria-label="Shelf settings">
+      <h2>Shelf</h2>
+      <div class="field">
+        <label for="width">Width <span id="width-in"></span></label>
+        <div class="row"><input type="range" id="width-r" min="20" max="220" step="1" value="100"><input type="number" id="width" min="20" max="220" step="1" value="100"> mm</div>
+        <small>Along the wall. Prints as the part's height (max 220 mm).</small>
+      </div>
+      <div class="field">
+        <label for="depth">Depth <span id="depth-in"></span></label>
+        <div class="row"><input type="range" id="depth-r" min="30" max="230" step="1" value="100"><input type="number" id="depth" min="30" max="230" step="1" value="100"> mm</div>
+        <small>How far it sticks out from the wall.</small>
+      </div>
+      <h2 style="margin-top:18px">Load rating</h2>
+      <div class="field">
+        <div class="seg" role="group" aria-label="Rating mode"><button id="m-water" class="on" type="button">Water depth</button><button id="m-kg" type="button">Fixed weight</button></div>
+      </div>
+      <div class="field" id="f-water">
+        <label for="water">Water over the deck <span id="water-kg"></span></label>
+        <div class="row"><input type="range" id="water-r" min="2" max="40" step="1" value="20"><input type="number" id="water" min="1" max="60" step="1" value="20"> cm</div>
+        <small>A load that scales with the shelf: as heavy as this much water filling the deck area.</small>
+      </div>
+      <div class="field" id="f-kg" hidden>
+        <label for="kg">Rated load</label>
+        <div class="row"><input type="range" id="kg-r" min="0.5" max="20" step="0.5" value="2"><input type="number" id="kg" min="0.1" max="50" step="0.1" value="2"> kg</div>
+      </div>
+      <h2 style="margin-top:18px">Options</h2>
+      <div class="field">
+        <label for="lip">Lip <span>front + sides</span></label>
+        <div class="row"><input type="range" id="lip-r" min="0" max="6" step="0.5" value="0"><input type="number" id="lip" min="0" max="10" step="0.5" value="0"> mm</div>
+        <small>0 = flat deck. Keeps things from rolling off.</small>
+      </div>
+    </section>
+
+    <section aria-label="Preview and export">
+      <div class="view" id="view">
+        <div class="tools"><div class="seg" role="group" aria-label="View"><button id="v-mount" class="on" type="button">On the wall</button><button id="v-print" type="button">As printed</button></div></div>
+        <div class="status" id="status">Loading Python (first visit downloads ~15 MB, then it's cached)…</div>
+      </div>
+      <div class="stats" id="stats" aria-live="polite"></div>
+      <div class="actions">
+        <button class="btn" id="dl-3mf" disabled>Download 3MF (PrusaSlicer project)</button>
+        <button class="btn ghost" id="dl-stl" disabled>Download STL</button>
+      </div>
+      <p class="note">The 3MF carries the print settings this shelf was sized for: Prusa MK4/MK4S, 0.6 mm high-flow nozzle, PETG, 0.40 mm layers. The load rating assumes those settings. With other settings, use the STL and keep at least the same perimeters.</p>
+    </section>
+  </div>
+</main>
+<footer>Part of <a href="https://github.com/nick-pape/slatwall-accessories">slatwall-accessories</a>. Rated loads come from a 2D finite-element model (creep 10 MPa, strength ÷ 2, buckling ÷ 3, tip sag ≤ depth/300). They're estimates, not a guarantee. Don't hang anything over people.</footer>
+<script type="module" src="shelf.js"></script>
+</body>
+</html>

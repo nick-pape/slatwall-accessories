@@ -1,0 +1,8388 @@
+{
+"about": "Safe load (kg) and solid-equivalent mass (g) per mm of shelf width, from shelf_table.py (2D FEA: creep 10 MPa, strength/2, buckling/3, tip sag <= depth/300).",
+"depths": [
+30,
+35,
+40,
+45,
+50,
+55,
+60,
+65,
+70,
+75,
+80,
+85,
+90,
+95,
+100,
+105,
+110,
+115,
+120,
+125,
+130,
+135,
+140,
+145,
+150,
+160,
+170,
+180,
+190,
+200,
+210,
+220,
+230
+],
+"sizes": [
+[
+2,
+6.0
+],
+[
+2,
+8.0
+],
+[
+3,
+6.0
+],
+[
+3,
+8.0
+],
+[
+3,
+10.0
+],
+[
+4,
+10.0
+]
+],
+"rows": {
+"30": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.088079,
+"g_per_mm": 0.45822,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.083598,
+"g_per_mm": 0.49195,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.119482,
+"g_per_mm": 0.52527,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.124866,
+"g_per_mm": 0.55778,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.158202,
+"g_per_mm": 0.60066,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.172173,
+"g_per_mm": 0.6411,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.082479,
+"g_per_mm": 0.50495,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.103082,
+"g_per_mm": 0.5399,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.126326,
+"g_per_mm": 0.59477,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.153025,
+"g_per_mm": 0.63053,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.235066,
+"g_per_mm": 0.67767,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.269508,
+"g_per_mm": 0.73558,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.086878,
+"g_per_mm": 0.57506,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.114662,
+"g_per_mm": 0.61285,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.130126,
+"g_per_mm": 0.70084,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.170008,
+"g_per_mm": 0.73904,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.250843,
+"g_per_mm": 0.79146,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.303076,
+"g_per_mm": 0.87965,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.372174,
+"g_per_mm": 0.72685,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.386561,
+"g_per_mm": 0.80853,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.407573,
+"g_per_mm": 0.83718,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.42942,
+"g_per_mm": 0.90322,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.447902,
+"g_per_mm": 0.98328,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.474479,
+"g_per_mm": 1.05075,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.505362,
+"g_per_mm": 0.84023,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.513951,
+"g_per_mm": 0.9461,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.588469,
+"g_per_mm": 1.003,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.607282,
+"g_per_mm": 1.12085,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.626064,
+"g_per_mm": 1.1877,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.679921,
+"g_per_mm": 1.283,
+"limit": "sag"
+}
+],
+"35": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.069451,
+"g_per_mm": 0.49215,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.071962,
+"g_per_mm": 0.5206,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.095148,
+"g_per_mm": 0.56672,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.106955,
+"g_per_mm": 0.59538,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.13123,
+"g_per_mm": 0.64414,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.14343,
+"g_per_mm": 0.69393,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.065377,
+"g_per_mm": 0.53889,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.088048,
+"g_per_mm": 0.56855,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.099881,
+"g_per_mm": 0.63622,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.129583,
+"g_per_mm": 0.66812,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.190166,
+"g_per_mm": 0.72116,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.219757,
+"g_per_mm": 0.78842,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.068633,
+"g_per_mm": 0.60899,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.098266,
+"g_per_mm": 0.6415,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.102695,
+"g_per_mm": 0.74229,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.144139,
+"g_per_mm": 0.77663,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.202373,
+"g_per_mm": 0.83495,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.244613,
+"g_per_mm": 0.93248,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.391145,
+"g_per_mm": 0.8128,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.3964,
+"g_per_mm": 0.88981,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.438319,
+"g_per_mm": 0.96175,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.447101,
+"g_per_mm": 1.03348,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.474747,
+"g_per_mm": 1.14503,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.499325,
+"g_per_mm": 1.23566,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.534761,
+"g_per_mm": 0.9528,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.523076,
+"g_per_mm": 1.05339,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.631802,
+"g_per_mm": 1.15316,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.631799,
+"g_per_mm": 1.25192,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.645774,
+"g_per_mm": 1.40167,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.707418,
+"g_per_mm": 1.51933,
+"limit": "sag"
+}
+],
+"40": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.055116,
+"g_per_mm": 0.51979,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.059546,
+"g_per_mm": 0.55108,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.076326,
+"g_per_mm": 0.60371,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.088097,
+"g_per_mm": 0.63602,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.110844,
+"g_per_mm": 0.69312,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.121124,
+"g_per_mm": 0.74168,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.051699,
+"g_per_mm": 0.56652,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.072102,
+"g_per_mm": 0.59903,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.079455,
+"g_per_mm": 0.6732,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.10548,
+"g_per_mm": 0.70876,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.160184,
+"g_per_mm": 0.77013,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.183459,
+"g_per_mm": 0.83617,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.054073,
+"g_per_mm": 0.63663,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.079807,
+"g_per_mm": 0.67198,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.08155,
+"g_per_mm": 0.77927,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.116348,
+"g_per_mm": 0.81727,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.168334,
+"g_per_mm": 0.88392,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.20228,
+"g_per_mm": 0.98024,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.404946,
+"g_per_mm": 0.90119,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.410026,
+"g_per_mm": 0.99588,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.456393,
+"g_per_mm": 1.08285,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.467691,
+"g_per_mm": 1.16881,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.486274,
+"g_per_mm": 1.28869,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.520866,
+"g_per_mm": 1.44211,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.550561,
+"g_per_mm": 1.06253,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.531143,
+"g_per_mm": 1.1623,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.656434,
+"g_per_mm": 1.2889,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.649975,
+"g_per_mm": 1.40167,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.665186,
+"g_per_mm": 1.54777,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.737727,
+"g_per_mm": 1.72496,
+"limit": "sag"
+}
+],
+"45": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.045413,
+"g_per_mm": 0.55006,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.050838,
+"g_per_mm": 0.58644,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.063311,
+"g_per_mm": 0.64008,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.075963,
+"g_per_mm": 0.67727,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.09545,
+"g_per_mm": 0.73619,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.104667,
+"g_per_mm": 0.79573,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.042789,
+"g_per_mm": 0.5968,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.060695,
+"g_per_mm": 0.63439,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.065647,
+"g_per_mm": 0.70957,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.089767,
+"g_per_mm": 0.75001,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.135288,
+"g_per_mm": 0.81321,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.155866,
+"g_per_mm": 0.89022,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.044632,
+"g_per_mm": 0.6669,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.066953,
+"g_per_mm": 0.70734,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.067258,
+"g_per_mm": 0.81564,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.098724,
+"g_per_mm": 0.85852,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.141923,
+"g_per_mm": 0.927,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.170534,
+"g_per_mm": 1.03429,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.048691,
+"g_per_mm": 0.73721,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.069864,
+"g_per_mm": 0.77988,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.069724,
+"g_per_mm": 0.92009,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.10252,
+"g_per_mm": 0.97211,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.144577,
+"g_per_mm": 1.05156,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.174009,
+"g_per_mm": 1.17693,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.430967,
+"g_per_mm": 0.99466,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.430163,
+"g_per_mm": 1.08021,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.489206,
+"g_per_mm": 1.20559,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.492915,
+"g_per_mm": 1.29824,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.508998,
+"g_per_mm": 1.42118,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.542423,
+"g_per_mm": 1.5811,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.579273,
+"g_per_mm": 1.16312,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.550009,
+"g_per_mm": 1.26614,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.708227,
+"g_per_mm": 1.45593,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.683936,
+"g_per_mm": 1.55875,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.686748,
+"g_per_mm": 1.70464,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.763753,
+"g_per_mm": 1.92573,
+"limit": "sag"
+}
+],
+"50": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.037608,
+"g_per_mm": 0.58054,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.043328,
+"g_per_mm": 0.61956,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.052695,
+"g_per_mm": 0.67767,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.064592,
+"g_per_mm": 0.71872,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.083656,
+"g_per_mm": 0.77622,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.091411,
+"g_per_mm": 0.84226,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.035479,
+"g_per_mm": 0.62728,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.051293,
+"g_per_mm": 0.66751,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.054355,
+"g_per_mm": 0.74717,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.07568,
+"g_per_mm": 0.79146,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.118191,
+"g_per_mm": 0.85324,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.134735,
+"g_per_mm": 0.93675,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.036889,
+"g_per_mm": 0.69738,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.05617,
+"g_per_mm": 0.74046,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.055608,
+"g_per_mm": 0.85324,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.082648,
+"g_per_mm": 0.89997,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.123047,
+"g_per_mm": 0.96703,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.146556,
+"g_per_mm": 1.08082,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.04008,
+"g_per_mm": 0.76769,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.058343,
+"g_per_mm": 0.813,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.057577,
+"g_per_mm": 0.95768,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.085517,
+"g_per_mm": 1.01356,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.125384,
+"g_per_mm": 1.09159,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.149483,
+"g_per_mm": 1.22347,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.454505,
+"g_per_mm": 1.07594,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.441663,
+"g_per_mm": 1.17348,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.5116,
+"g_per_mm": 1.31836,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.510296,
+"g_per_mm": 1.41834,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.523406,
+"g_per_mm": 1.56078,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.56404,
+"g_per_mm": 1.75138,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.589579,
+"g_per_mm": 1.26776,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.555793,
+"g_per_mm": 1.37424,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.741881,
+"g_per_mm": 1.59979,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.70536,
+"g_per_mm": 1.71338,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.705297,
+"g_per_mm": 1.87046,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.792108,
+"g_per_mm": 2.12832,
+"limit": "sag"
+}
+],
+"55": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.03189,
+"g_per_mm": 0.61448,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.038255,
+"g_per_mm": 0.65004,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.045051,
+"g_per_mm": 0.71892,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.057207,
+"g_per_mm": 0.75794,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.073188,
+"g_per_mm": 0.81585,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.080384,
+"g_per_mm": 0.8892,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.03029,
+"g_per_mm": 0.66121,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.044853,
+"g_per_mm": 0.69799,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.046347,
+"g_per_mm": 0.78842,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.066371,
+"g_per_mm": 0.83068,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.101357,
+"g_per_mm": 0.89286,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.116459,
+"g_per_mm": 0.98369,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.03141,
+"g_per_mm": 0.73132,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.049031,
+"g_per_mm": 0.77094,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.047348,
+"g_per_mm": 0.89449,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.072332,
+"g_per_mm": 0.93919,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.105387,
+"g_per_mm": 1.00665,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.125877,
+"g_per_mm": 1.12776,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.03383,
+"g_per_mm": 0.80162,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.051177,
+"g_per_mm": 0.84348,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.048919,
+"g_per_mm": 0.99893,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.075123,
+"g_per_mm": 1.05278,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.107168,
+"g_per_mm": 1.13121,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.128178,
+"g_per_mm": 1.27041,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.477477,
+"g_per_mm": 1.1808,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.460513,
+"g_per_mm": 1.2639,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.543845,
+"g_per_mm": 1.44719,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.537894,
+"g_per_mm": 1.55407,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.544232,
+"g_per_mm": 1.68372,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.589585,
+"g_per_mm": 1.90439,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.60288,
+"g_per_mm": 1.37343,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.579712,
+"g_per_mm": 1.49047,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.781246,
+"g_per_mm": 1.74915,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.742553,
+"g_per_mm": 1.87371,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.730787,
+"g_per_mm": 2.02855,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.828284,
+"g_per_mm": 2.32542,
+"limit": "sag"
+}
+],
+"60": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.027246,
+"g_per_mm": 0.64394,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.033371,
+"g_per_mm": 0.68052,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.03852,
+"g_per_mm": 0.7557,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.049719,
+"g_per_mm": 0.79776,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.064823,
+"g_per_mm": 0.86279,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.071233,
+"g_per_mm": 0.93838,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.025846,
+"g_per_mm": 0.69068,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.038864,
+"g_per_mm": 0.72847,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.039499,
+"g_per_mm": 0.8252,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.05728,
+"g_per_mm": 0.87051,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.089089,
+"g_per_mm": 0.9398,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.101952,
+"g_per_mm": 1.03287,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.026748,
+"g_per_mm": 0.76078,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.042236,
+"g_per_mm": 0.80142,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.040304,
+"g_per_mm": 0.93127,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.06206,
+"g_per_mm": 0.97902,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.092116,
+"g_per_mm": 1.05359,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.109671,
+"g_per_mm": 1.17693,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.02878,
+"g_per_mm": 0.83109,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.043898,
+"g_per_mm": 0.87396,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.041583,
+"g_per_mm": 1.03571,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.064232,
+"g_per_mm": 1.09261,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.093654,
+"g_per_mm": 1.17815,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.111615,
+"g_per_mm": 1.31958,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.493557,
+"g_per_mm": 1.25212,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.473992,
+"g_per_mm": 1.35819,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.570018,
+"g_per_mm": 1.55997,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.55609,
+"g_per_mm": 1.67518,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.556099,
+"g_per_mm": 1.82027,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.607607,
+"g_per_mm": 2.06858,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.61981,
+"g_per_mm": 1.47564,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.589033,
+"g_per_mm": 1.60426,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.802697,
+"g_per_mm": 1.88387,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.761805,
+"g_per_mm": 2.02062,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.745895,
+"g_per_mm": 2.20106,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.844456,
+"g_per_mm": 2.52842,
+"limit": "sag"
+}
+],
+"65": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.023526,
+"g_per_mm": 0.67219,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.029698,
+"g_per_mm": 0.71608,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.0336,
+"g_per_mm": 0.79268,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.044457,
+"g_per_mm": 0.83901,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.057614,
+"g_per_mm": 0.89875,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.063749,
+"g_per_mm": 0.99019,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.02247,
+"g_per_mm": 0.71892,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.034268,
+"g_per_mm": 0.76403,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.034395,
+"g_per_mm": 0.86218,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.050782,
+"g_per_mm": 0.91176,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.077855,
+"g_per_mm": 0.97577,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.089937,
+"g_per_mm": 1.08468,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.023199,
+"g_per_mm": 0.78903,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.037149,
+"g_per_mm": 0.83698,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.035053,
+"g_per_mm": 0.96825,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.054886,
+"g_per_mm": 1.02027,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.080404,
+"g_per_mm": 1.08956,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.096292,
+"g_per_mm": 1.22875,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.024757,
+"g_per_mm": 0.85933,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.038728,
+"g_per_mm": 0.90952,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.036093,
+"g_per_mm": 1.07269,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.056927,
+"g_per_mm": 1.13386,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.081624,
+"g_per_mm": 1.21412,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.097871,
+"g_per_mm": 1.3714,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.519029,
+"g_per_mm": 1.34031,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.490612,
+"g_per_mm": 1.45796,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.602214,
+"g_per_mm": 1.68554,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.580701,
+"g_per_mm": 1.81498,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.578172,
+"g_per_mm": 1.96169,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.631734,
+"g_per_mm": 2.24536,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.616235,
+"g_per_mm": 1.58049,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.59545,
+"g_per_mm": 1.7142,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.819692,
+"g_per_mm": 2.03139,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.788422,
+"g_per_mm": 2.18135,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.772119,
+"g_per_mm": 2.35915,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.882335,
+"g_per_mm": 2.73467,
+"limit": "sag"
+}
+],
+"70": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.02053,
+"g_per_mm": 0.70328,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.026271,
+"g_per_mm": 0.74757,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.029333,
+"g_per_mm": 0.83007,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.039247,
+"g_per_mm": 0.87965,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.051921,
+"g_per_mm": 0.94305,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.057259,
+"g_per_mm": 1.03226,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.019575,
+"g_per_mm": 0.75001,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.030139,
+"g_per_mm": 0.79553,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.029955,
+"g_per_mm": 0.89957,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.044579,
+"g_per_mm": 0.9524,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.069717,
+"g_per_mm": 1.02006,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.079857,
+"g_per_mm": 1.12674,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.02018,
+"g_per_mm": 0.82012,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.032507,
+"g_per_mm": 0.86848,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.0305,
+"g_per_mm": 1.00564,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.047942,
+"g_per_mm": 1.06091,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.071686,
+"g_per_mm": 1.13386,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.085151,
+"g_per_mm": 1.27081,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.021535,
+"g_per_mm": 0.89042,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.033748,
+"g_per_mm": 0.94102,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.031372,
+"g_per_mm": 1.11008,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.049556,
+"g_per_mm": 1.1745,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.072767,
+"g_per_mm": 1.25842,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.086507,
+"g_per_mm": 1.41346,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.534785,
+"g_per_mm": 1.42707,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.503959,
+"g_per_mm": 1.54635,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.631426,
+"g_per_mm": 1.80523,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.598667,
+"g_per_mm": 1.93609,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.593864,
+"g_per_mm": 2.08666,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.651564,
+"g_per_mm": 2.39634,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.630866,
+"g_per_mm": 1.68819,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.601579,
+"g_per_mm": 1.82108,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.84814,
+"g_per_mm": 2.17546,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.808633,
+"g_per_mm": 2.33152,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.789333,
+"g_per_mm": 2.50952,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.904676,
+"g_per_mm": 2.91186,
+"limit": "sag"
+}
+],
+"75": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.018038,
+"g_per_mm": 0.73701,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.023765,
+"g_per_mm": 0.77968,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.026022,
+"g_per_mm": 0.87092,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.035573,
+"g_per_mm": 0.91867,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.046992,
+"g_per_mm": 0.9845,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.051905,
+"g_per_mm": 1.0861,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.017254,
+"g_per_mm": 0.78374,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.027068,
+"g_per_mm": 0.82763,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.02654,
+"g_per_mm": 0.94041,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.040126,
+"g_per_mm": 0.99141,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.062327,
+"g_per_mm": 1.06152,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.071516,
+"g_per_mm": 1.18059,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.01776,
+"g_per_mm": 0.85385,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.029139,
+"g_per_mm": 0.90058,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.026996,
+"g_per_mm": 1.04648,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.043068,
+"g_per_mm": 1.09992,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.064048,
+"g_per_mm": 1.17531,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.075975,
+"g_per_mm": 1.32466,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.018865,
+"g_per_mm": 0.92415,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.03032,
+"g_per_mm": 0.97312,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.027723,
+"g_per_mm": 1.15092,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.044589,
+"g_per_mm": 1.21351,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.064943,
+"g_per_mm": 1.29987,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.077108,
+"g_per_mm": 1.46731,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.543735,
+"g_per_mm": 1.51933,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.525008,
+"g_per_mm": 1.63251,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.667334,
+"g_per_mm": 1.92918,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.628075,
+"g_per_mm": 2.05923,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.616837,
+"g_per_mm": 2.21407,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.677259,
+"g_per_mm": 2.54691,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.663921,
+"g_per_mm": 1.79304,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.618325,
+"g_per_mm": 1.93711,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.866206,
+"g_per_mm": 2.3244,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.832076,
+"g_per_mm": 2.49875,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.80677,
+"g_per_mm": 2.68671,
+"limit": "sag"
+},
+{
+"name": "T55",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.936037,
+"g_per_mm": 3.12461,
+"limit": "sag"
+}
+],
+"80": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.015981,
+"g_per_mm": 0.76484,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.021324,
+"g_per_mm": 0.80955,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.023063,
+"g_per_mm": 0.9081,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.031899,
+"g_per_mm": 0.9591,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.042605,
+"g_per_mm": 1.03469,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.047103,
+"g_per_mm": 1.13568,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.015305,
+"g_per_mm": 0.81158,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.024175,
+"g_per_mm": 0.8575,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.023482,
+"g_per_mm": 0.9776,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.035818,
+"g_per_mm": 1.03185,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.056035,
+"g_per_mm": 1.11171,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.064189,
+"g_per_mm": 1.23017,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.015728,
+"g_per_mm": 0.88168,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.025916,
+"g_per_mm": 0.93045,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.023867,
+"g_per_mm": 1.08367,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.038295,
+"g_per_mm": 1.14036,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.057407,
+"g_per_mm": 1.2255,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.06798,
+"g_per_mm": 1.37424,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.01667,
+"g_per_mm": 0.95199,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.026874,
+"g_per_mm": 1.003,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.024486,
+"g_per_mm": 1.18811,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.039547,
+"g_per_mm": 1.25395,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.058192,
+"g_per_mm": 1.35006,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.06896,
+"g_per_mm": 1.51689,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.556707,
+"g_per_mm": 1.6002,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.53428,
+"g_per_mm": 1.73594,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.683219,
+"g_per_mm": 2.04135,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.648777,
+"g_per_mm": 2.19172,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.629546,
+"g_per_mm": 2.36769,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.698769,
+"g_per_mm": 2.74076,
+"limit": "sag"
+}
+],
+"85": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.01427,
+"g_per_mm": 0.79614,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.019406,
+"g_per_mm": 0.84491,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.02072,
+"g_per_mm": 0.94488,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.0291,
+"g_per_mm": 1.00117,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.038958,
+"g_per_mm": 1.08184,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.043108,
+"g_per_mm": 1.18669,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.013701,
+"g_per_mm": 0.84287,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.021858,
+"g_per_mm": 0.89286,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.021076,
+"g_per_mm": 1.01437,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.03248,
+"g_per_mm": 1.07391,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.050709,
+"g_per_mm": 1.15885,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.058119,
+"g_per_mm": 1.28118,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.014063,
+"g_per_mm": 0.91298,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.023385,
+"g_per_mm": 0.96581,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.021403,
+"g_per_mm": 1.12044,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.034656,
+"g_per_mm": 1.18242,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.051927,
+"g_per_mm": 1.27264,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.061377,
+"g_per_mm": 1.42524,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.014852,
+"g_per_mm": 0.98328,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.024281,
+"g_per_mm": 1.03835,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.021928,
+"g_per_mm": 1.22489,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.035816,
+"g_per_mm": 1.29601,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.05259,
+"g_per_mm": 1.3972,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.062208,
+"g_per_mm": 1.56789,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.57713,
+"g_per_mm": 1.69794,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.54283,
+"g_per_mm": 1.82067,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.715729,
+"g_per_mm": 2.17018,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.674829,
+"g_per_mm": 2.32156,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.652001,
+"g_per_mm": 2.50403,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.721402,
+"g_per_mm": 2.89702,
+"limit": "sag"
+}
+],
+"90": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.012795,
+"g_per_mm": 0.82621,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.017583,
+"g_per_mm": 0.87701,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.018594,
+"g_per_mm": 0.98227,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.026349,
+"g_per_mm": 1.04181,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.035623,
+"g_per_mm": 1.11232,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.03949,
+"g_per_mm": 1.23322,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.0123,
+"g_per_mm": 0.87295,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.019725,
+"g_per_mm": 0.92497,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.018888,
+"g_per_mm": 1.05176,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.029297,
+"g_per_mm": 1.11455,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.046002,
+"g_per_mm": 1.18933,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.052728,
+"g_per_mm": 1.32771,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.012608,
+"g_per_mm": 0.94305,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.021027,
+"g_per_mm": 0.99792,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.01917,
+"g_per_mm": 1.15783,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.031156,
+"g_per_mm": 1.22306,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.046995,
+"g_per_mm": 1.30312,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.055547,
+"g_per_mm": 1.47178,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.013289,
+"g_per_mm": 1.01336,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.021763,
+"g_per_mm": 1.07046,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.019624,
+"g_per_mm": 1.26228,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.032122,
+"g_per_mm": 1.33665,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.047582,
+"g_per_mm": 1.42768,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.056275,
+"g_per_mm": 1.61442,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.595549,
+"g_per_mm": 1.78044,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.551395,
+"g_per_mm": 1.91292,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.730632,
+"g_per_mm": 2.28458,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.693724,
+"g_per_mm": 2.4447,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.665479,
+"g_per_mm": 2.61661,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.742673,
+"g_per_mm": 3.04394,
+"limit": "sag"
+}
+],
+"95": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.011559,
+"g_per_mm": 0.85994,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.016167,
+"g_per_mm": 0.90891,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.016867,
+"g_per_mm": 1.02372,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.024255,
+"g_per_mm": 1.08123,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.032813,
+"g_per_mm": 1.15844,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.036405,
+"g_per_mm": 1.28138,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.011159,
+"g_per_mm": 0.90668,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.018041,
+"g_per_mm": 0.95687,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.017123,
+"g_per_mm": 1.09322,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.026833,
+"g_per_mm": 1.15397,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.04198,
+"g_per_mm": 1.23546,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.048156,
+"g_per_mm": 1.37587,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.011423,
+"g_per_mm": 0.97678,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.019201,
+"g_per_mm": 1.02982,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.017365,
+"g_per_mm": 1.19929,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.028488,
+"g_per_mm": 1.26248,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.042881,
+"g_per_mm": 1.34925,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.050601,
+"g_per_mm": 1.51994,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.011983,
+"g_per_mm": 1.04709,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.019897,
+"g_per_mm": 1.10236,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.017753,
+"g_per_mm": 1.30373,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.029389,
+"g_per_mm": 1.37607,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.043382,
+"g_per_mm": 1.47381,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.05123,
+"g_per_mm": 1.66258,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.588115,
+"g_per_mm": 1.86781,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.565458,
+"g_per_mm": 2.0066,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.749472,
+"g_per_mm": 2.4067,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.710529,
+"g_per_mm": 2.578,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.697519,
+"g_per_mm": 2.76941,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.76961,
+"g_per_mm": 3.21889,
+"limit": "sag"
+}
+],
+"100": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.010472,
+"g_per_mm": 0.88819,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.014762,
+"g_per_mm": 0.93817,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.015303,
+"g_per_mm": 1.0605,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.022142,
+"g_per_mm": 1.12085,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.030227,
+"g_per_mm": 1.20416,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.03356,
+"g_per_mm": 1.33198,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.010098,
+"g_per_mm": 0.93492,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.016417,
+"g_per_mm": 0.98613,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.015517,
+"g_per_mm": 1.13,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.024416,
+"g_per_mm": 1.1936,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.038399,
+"g_per_mm": 1.28118,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.043995,
+"g_per_mm": 1.42646,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.010328,
+"g_per_mm": 1.00503,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.017417,
+"g_per_mm": 1.05908,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.015729,
+"g_per_mm": 1.23607,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.025846,
+"g_per_mm": 1.30211,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.039141,
+"g_per_mm": 1.39497,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.046133,
+"g_per_mm": 1.57053,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.010837,
+"g_per_mm": 1.07533,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.017992,
+"g_per_mm": 1.13162,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.016071,
+"g_per_mm": 1.34051,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.026607,
+"g_per_mm": 1.41569,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.039591,
+"g_per_mm": 1.51953,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.046688,
+"g_per_mm": 1.71318,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.598529,
+"g_per_mm": 1.95844,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.571588,
+"g_per_mm": 2.10007,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.772933,
+"g_per_mm": 2.52598,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.730259,
+"g_per_mm": 2.69951,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.707623,
+"g_per_mm": 2.8958,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.791731,
+"g_per_mm": 3.38755,
+"limit": "sag"
+}
+],
+"105": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.009545,
+"g_per_mm": 0.91806,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.013657,
+"g_per_mm": 0.97434,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.014012,
+"g_per_mm": 1.09728,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.020506,
+"g_per_mm": 1.16373,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.027934,
+"g_per_mm": 1.23261,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.031139,
+"g_per_mm": 1.38095,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.009242,
+"g_per_mm": 0.96479,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.015116,
+"g_per_mm": 1.0223,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.014199,
+"g_per_mm": 1.16677,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.022513,
+"g_per_mm": 1.23647,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.035176,
+"g_per_mm": 1.30962,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.040483,
+"g_per_mm": 1.47544,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.009442,
+"g_per_mm": 1.0349,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.016015,
+"g_per_mm": 1.09525,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.014384,
+"g_per_mm": 1.27284,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.023795,
+"g_per_mm": 1.34498,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.035838,
+"g_per_mm": 1.42342,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.042361,
+"g_per_mm": 1.6195,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.009863,
+"g_per_mm": 1.1052,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.016562,
+"g_per_mm": 1.16779,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.014685,
+"g_per_mm": 1.37729,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.024506,
+"g_per_mm": 1.45857,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.036227,
+"g_per_mm": 1.54798,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.042846,
+"g_per_mm": 1.76215,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.62842,
+"g_per_mm": 2.04541,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.581506,
+"g_per_mm": 2.18359,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.79054,
+"g_per_mm": 2.65359,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.750495,
+"g_per_mm": 2.82956,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.718341,
+"g_per_mm": 3.03479,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.813219,
+"g_per_mm": 3.56758,
+"limit": "sag"
+}
+],
+"110": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00872,
+"g_per_mm": 0.94854,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.012544,
+"g_per_mm": 1.00543,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.012809,
+"g_per_mm": 1.13447,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.018849,
+"g_per_mm": 1.20233,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.025992,
+"g_per_mm": 1.29093,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.028908,
+"g_per_mm": 1.43093,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.008432,
+"g_per_mm": 0.99527,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.013843,
+"g_per_mm": 1.05339,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.01297,
+"g_per_mm": 1.20396,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.020637,
+"g_per_mm": 1.27508,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.032545,
+"g_per_mm": 1.36794,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.037286,
+"g_per_mm": 1.52542,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.008609,
+"g_per_mm": 1.06538,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.014623,
+"g_per_mm": 1.12634,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.013133,
+"g_per_mm": 1.31003,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.021757,
+"g_per_mm": 1.38359,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.033113,
+"g_per_mm": 1.48173,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.038954,
+"g_per_mm": 1.66949,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.008998,
+"g_per_mm": 1.13568,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.015079,
+"g_per_mm": 1.19888,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.013397,
+"g_per_mm": 1.41448,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.022361,
+"g_per_mm": 1.49718,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.033465,
+"g_per_mm": 1.6063,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.039386,
+"g_per_mm": 1.81214,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.646465,
+"g_per_mm": 2.13462,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.584644,
+"g_per_mm": 2.28803,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.808865,
+"g_per_mm": 2.77327,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.752459,
+"g_per_mm": 2.95819,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.725465,
+"g_per_mm": 3.16525,
+"limit": "sag"
+},
+{
+"name": "T45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.833715,
+"g_per_mm": 3.71592,
+"limit": "sag"
+}
+],
+"115": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.008016,
+"g_per_mm": 0.98308,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.011692,
+"g_per_mm": 1.03835,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.011815,
+"g_per_mm": 1.17572,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.017562,
+"g_per_mm": 1.24399,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.024146,
+"g_per_mm": 1.32588,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.026954,
+"g_per_mm": 1.47544,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.007775,
+"g_per_mm": 1.02982,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.012851,
+"g_per_mm": 1.08631,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.011956,
+"g_per_mm": 1.24521,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.019154,
+"g_per_mm": 1.31674,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.029996,
+"g_per_mm": 1.40289,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.034511,
+"g_per_mm": 1.56992,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00793,
+"g_per_mm": 1.09992,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.013561,
+"g_per_mm": 1.15926,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.012101,
+"g_per_mm": 1.35128,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.020168,
+"g_per_mm": 1.42524,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.030508,
+"g_per_mm": 1.51668,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.035983,
+"g_per_mm": 1.71399,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.008261,
+"g_per_mm": 1.17023,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.013999,
+"g_per_mm": 1.2318,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.012335,
+"g_per_mm": 1.45572,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.020737,
+"g_per_mm": 1.53883,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.030815,
+"g_per_mm": 1.64125,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.036365,
+"g_per_mm": 1.85664,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.967803,
+"g_per_mm": 2.34351,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.918638,
+"g_per_mm": 2.48778,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.281288,
+"g_per_mm": 3.04963,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 1.165949,
+"g_per_mm": 3.23312,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 1.078453,
+"g_per_mm": 3.45603,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 1.163462,
+"g_per_mm": 4.0262,
+"limit": "sag"
+}
+],
+"120": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.007376,
+"g_per_mm": 1.01072,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.010826,
+"g_per_mm": 1.06741,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.010876,
+"g_per_mm": 1.21249,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.016245,
+"g_per_mm": 1.2826,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.022587,
+"g_per_mm": 1.37648,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.025147,
+"g_per_mm": 1.52928,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.007148,
+"g_per_mm": 1.05745,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.011868,
+"g_per_mm": 1.11536,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.011,
+"g_per_mm": 1.28199,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.017676,
+"g_per_mm": 1.35534,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.027912,
+"g_per_mm": 1.45349,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.031964,
+"g_per_mm": 1.62377,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.007287,
+"g_per_mm": 1.12756,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.012494,
+"g_per_mm": 1.18831,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.011128,
+"g_per_mm": 1.38806,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.01857,
+"g_per_mm": 1.46385,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.028361,
+"g_per_mm": 1.56728,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.033284,
+"g_per_mm": 1.76784,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.007591,
+"g_per_mm": 1.19786,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.01287,
+"g_per_mm": 1.26086,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.011336,
+"g_per_mm": 1.4925,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.019059,
+"g_per_mm": 1.57744,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.028641,
+"g_per_mm": 1.69184,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.033626,
+"g_per_mm": 1.91049,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.946193,
+"g_per_mm": 2.38699,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.890399,
+"g_per_mm": 2.54467,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.236362,
+"g_per_mm": 3.10469,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 1.128038,
+"g_per_mm": 3.30424,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 1.036109,
+"g_per_mm": 3.53182,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 1.116571,
+"g_per_mm": 4.14101,
+"limit": "sag"
+}
+],
+"125": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006823,
+"g_per_mm": 1.0416,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.010116,
+"g_per_mm": 1.10317,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.010095,
+"g_per_mm": 1.24988,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.0152,
+"g_per_mm": 1.32243,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.021097,
+"g_per_mm": 1.41346,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.023551,
+"g_per_mm": 1.57439,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00662,
+"g_per_mm": 1.08834,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.011051,
+"g_per_mm": 1.15113,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.010205,
+"g_per_mm": 1.31938,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.016483,
+"g_per_mm": 1.39517,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.025897,
+"g_per_mm": 1.49047,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.029739,
+"g_per_mm": 1.66888,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006744,
+"g_per_mm": 1.15844,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.01162,
+"g_per_mm": 1.22408,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.010319,
+"g_per_mm": 1.42545,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.017297,
+"g_per_mm": 1.50368,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.026303,
+"g_per_mm": 1.60426,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.030911,
+"g_per_mm": 1.81295,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.007014,
+"g_per_mm": 1.22875,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.011975,
+"g_per_mm": 1.29662,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.010505,
+"g_per_mm": 1.52989,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.017759,
+"g_per_mm": 1.61727,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.026549,
+"g_per_mm": 1.72883,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.031217,
+"g_per_mm": 1.9556,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.924942,
+"g_per_mm": 2.44023,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.866902,
+"g_per_mm": 2.59568,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.210475,
+"g_per_mm": 3.17805,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 1.101393,
+"g_per_mm": 3.37312,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 1.004375,
+"g_per_mm": 3.59156,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 1.083251,
+"g_per_mm": 4.21864,
+"limit": "sag"
+}
+],
+"130": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006309,
+"g_per_mm": 1.07107,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.009416,
+"g_per_mm": 1.13508,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.009349,
+"g_per_mm": 1.28687,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.01415,
+"g_per_mm": 1.36449,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.019796,
+"g_per_mm": 1.45532,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.022077,
+"g_per_mm": 1.62499,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006127,
+"g_per_mm": 1.1178,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.010261,
+"g_per_mm": 1.18303,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.009446,
+"g_per_mm": 1.35636,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.015311,
+"g_per_mm": 1.43723,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.024177,
+"g_per_mm": 1.53233,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.027695,
+"g_per_mm": 1.71948,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006238,
+"g_per_mm": 1.18791,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.010768,
+"g_per_mm": 1.25598,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.009549,
+"g_per_mm": 1.46243,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.016038,
+"g_per_mm": 1.54574,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.024534,
+"g_per_mm": 1.64612,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.028757,
+"g_per_mm": 1.86355,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006479,
+"g_per_mm": 1.25821,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.011076,
+"g_per_mm": 1.32852,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.009715,
+"g_per_mm": 1.56688,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.016443,
+"g_per_mm": 1.65933,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.02476,
+"g_per_mm": 1.77068,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.029032,
+"g_per_mm": 2.00619,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.902245,
+"g_per_mm": 2.48412,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.84022,
+"g_per_mm": 2.64566,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.167642,
+"g_per_mm": 3.22966,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 1.059392,
+"g_per_mm": 3.43449,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.962988,
+"g_per_mm": 3.62407,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 1.043551,
+"g_per_mm": 4.27634,
+"limit": "sag"
+}
+],
+"135": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005879,
+"g_per_mm": 1.10541,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.00884,
+"g_per_mm": 1.16677,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00872,
+"g_per_mm": 1.32872,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.013295,
+"g_per_mm": 1.40513,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.018582,
+"g_per_mm": 1.49576,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.02078,
+"g_per_mm": 1.67051,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005716,
+"g_per_mm": 1.15214,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.009604,
+"g_per_mm": 1.21473,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.008807,
+"g_per_mm": 1.39822,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.014344,
+"g_per_mm": 1.47787,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.022562,
+"g_per_mm": 1.57277,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.02592,
+"g_per_mm": 1.765,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005816,
+"g_per_mm": 1.22225,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.010068,
+"g_per_mm": 1.28768,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.0089,
+"g_per_mm": 1.50429,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.015009,
+"g_per_mm": 1.58638,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.022888,
+"g_per_mm": 1.68656,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.026874,
+"g_per_mm": 1.90906,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.006032,
+"g_per_mm": 1.29256,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.010359,
+"g_per_mm": 1.36022,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00905,
+"g_per_mm": 1.60873,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.015389,
+"g_per_mm": 1.69997,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.023089,
+"g_per_mm": 1.81112,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.027122,
+"g_per_mm": 2.05171,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.834799,
+"g_per_mm": 2.53594,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.809287,
+"g_per_mm": 2.68956,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.139804,
+"g_per_mm": 3.29733,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 1.023663,
+"g_per_mm": 3.49667,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.937655,
+"g_per_mm": 3.71429,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 1.01377,
+"g_per_mm": 4.3623,
+"limit": "sag"
+}
+],
+"140": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005463,
+"g_per_mm": 1.13426,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.008264,
+"g_per_mm": 1.19624,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.008121,
+"g_per_mm": 1.36489,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.012436,
+"g_per_mm": 1.44374,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.017477,
+"g_per_mm": 1.54757,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.019543,
+"g_per_mm": 1.72415,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005316,
+"g_per_mm": 1.181,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.008961,
+"g_per_mm": 1.24419,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.008198,
+"g_per_mm": 1.43439,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.013392,
+"g_per_mm": 1.51648,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.021118,
+"g_per_mm": 1.62458,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.024229,
+"g_per_mm": 1.81864,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005405,
+"g_per_mm": 1.2511,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.009377,
+"g_per_mm": 1.31714,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.008281,
+"g_per_mm": 1.54046,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.01399,
+"g_per_mm": 1.62499,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.021406,
+"g_per_mm": 1.73838,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.025095,
+"g_per_mm": 1.96271,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.0056,
+"g_per_mm": 1.32141,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.00963,
+"g_per_mm": 1.38968,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.008417,
+"g_per_mm": 1.6449,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.014326,
+"g_per_mm": 1.73858,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.02159,
+"g_per_mm": 1.86294,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.025321,
+"g_per_mm": 2.10536,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.794968,
+"g_per_mm": 2.58166,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.780377,
+"g_per_mm": 2.73507,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.08564,
+"g_per_mm": 3.35443,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.987213,
+"g_per_mm": 3.55925,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.904946,
+"g_per_mm": 3.79395,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.975003,
+"g_per_mm": 4.45597,
+"limit": "sag"
+}
+],
+"145": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005107,
+"g_per_mm": 1.16413,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.007788,
+"g_per_mm": 1.23261,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007612,
+"g_per_mm": 1.40228,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.011719,
+"g_per_mm": 1.48722,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.016488,
+"g_per_mm": 1.58659,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.018459,
+"g_per_mm": 1.77109,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004974,
+"g_per_mm": 1.21087,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.008421,
+"g_per_mm": 1.28057,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007682,
+"g_per_mm": 1.47178,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.012588,
+"g_per_mm": 1.55997,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.019831,
+"g_per_mm": 1.6636,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.022768,
+"g_per_mm": 1.86558,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005055,
+"g_per_mm": 1.28097,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.008803,
+"g_per_mm": 1.35352,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007757,
+"g_per_mm": 1.57785,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.013137,
+"g_per_mm": 1.66848,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.020088,
+"g_per_mm": 1.77739,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.023552,
+"g_per_mm": 2.00965,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.005231,
+"g_per_mm": 1.35128,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.009045,
+"g_per_mm": 1.42606,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00788,
+"g_per_mm": 1.68229,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.013453,
+"g_per_mm": 1.78206,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.020255,
+"g_per_mm": 1.90195,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.023756,
+"g_per_mm": 2.15229,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.775887,
+"g_per_mm": 2.63246,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.75805,
+"g_per_mm": 2.7877,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.059791,
+"g_per_mm": 3.42331,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.957944,
+"g_per_mm": 3.62793,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.870985,
+"g_per_mm": 3.88153,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.942598,
+"g_per_mm": 4.55513,
+"limit": "sag"
+}
+],
+"150": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004774,
+"g_per_mm": 1.1938,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.00731,
+"g_per_mm": 1.2635,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007118,
+"g_per_mm": 1.43866,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.011007,
+"g_per_mm": 1.52786,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.01556,
+"g_per_mm": 1.62784,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.017422,
+"g_per_mm": 1.81925,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004653,
+"g_per_mm": 1.24054,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.00789,
+"g_per_mm": 1.31145,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007181,
+"g_per_mm": 1.50815,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.011803,
+"g_per_mm": 1.60061,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.018623,
+"g_per_mm": 1.70485,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.02137,
+"g_per_mm": 1.91374,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004726,
+"g_per_mm": 1.31064,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.008235,
+"g_per_mm": 1.3844,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007249,
+"g_per_mm": 1.61422,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.0123,
+"g_per_mm": 1.70912,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.018858,
+"g_per_mm": 1.81864,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.022086,
+"g_per_mm": 2.05781,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004886,
+"g_per_mm": 1.38095,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.008447,
+"g_per_mm": 1.45694,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.007361,
+"g_per_mm": 1.71867,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.012582,
+"g_per_mm": 1.8227,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.019011,
+"g_per_mm": 1.9432,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.022273,
+"g_per_mm": 2.20045,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.764784,
+"g_per_mm": 2.68346,
+"limit": "creep"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.723418,
+"g_per_mm": 2.84947,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 1.016705,
+"g_per_mm": 3.48163,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.917998,
+"g_per_mm": 3.70291,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.83143,
+"g_per_mm": 3.94269,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.904009,
+"g_per_mm": 4.62686,
+"limit": "sag"
+}
+],
+"160": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004209,
+"g_per_mm": 1.25618,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.006509,
+"g_per_mm": 1.32527,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00629,
+"g_per_mm": 1.51648,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.009809,
+"g_per_mm": 1.60731,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.013944,
+"g_per_mm": 1.71867,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.015632,
+"g_per_mm": 1.91983,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004109,
+"g_per_mm": 1.30292,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.006997,
+"g_per_mm": 1.37323,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.006342,
+"g_per_mm": 1.58598,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.010479,
+"g_per_mm": 1.68006,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.016546,
+"g_per_mm": 1.79568,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01899,
+"g_per_mm": 2.01432,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00417,
+"g_per_mm": 1.37302,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.007285,
+"g_per_mm": 1.44617,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.006399,
+"g_per_mm": 1.69205,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.010895,
+"g_per_mm": 1.78857,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.016741,
+"g_per_mm": 1.90947,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.019588,
+"g_per_mm": 2.15839,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.004302,
+"g_per_mm": 1.44333,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.007464,
+"g_per_mm": 1.51872,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.006492,
+"g_per_mm": 1.79649,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.011133,
+"g_per_mm": 1.90216,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.016869,
+"g_per_mm": 2.03403,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.019744,
+"g_per_mm": 2.30104,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.680303,
+"g_per_mm": 2.77754,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.671175,
+"g_per_mm": 2.94477,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.948762,
+"g_per_mm": 3.61107,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.85429,
+"g_per_mm": 3.83134,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.784831,
+"g_per_mm": 4.08595,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.849733,
+"g_per_mm": 4.80527,
+"limit": "sag"
+}
+],
+"170": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003737,
+"g_per_mm": 1.31674,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005834,
+"g_per_mm": 1.39151,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005599,
+"g_per_mm": 1.59106,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.00879,
+"g_per_mm": 1.68717,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.012561,
+"g_per_mm": 1.79913,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.014109,
+"g_per_mm": 2.02753,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003652,
+"g_per_mm": 1.36347,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.006247,
+"g_per_mm": 1.43947,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005642,
+"g_per_mm": 1.66055,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.009359,
+"g_per_mm": 1.75992,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.014787,
+"g_per_mm": 1.87615,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01699,
+"g_per_mm": 2.12202,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003703,
+"g_per_mm": 1.43358,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.006492,
+"g_per_mm": 1.51242,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00569,
+"g_per_mm": 1.76662,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.009711,
+"g_per_mm": 1.86842,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.01495,
+"g_per_mm": 1.98994,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.017496,
+"g_per_mm": 2.26609,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003814,
+"g_per_mm": 1.50388,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.006644,
+"g_per_mm": 1.58496,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005768,
+"g_per_mm": 1.87107,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.009913,
+"g_per_mm": 1.98201,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.015058,
+"g_per_mm": 2.1145,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.017627,
+"g_per_mm": 2.40873,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.598195,
+"g_per_mm": 2.8763,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.632325,
+"g_per_mm": 3.04881,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.889242,
+"g_per_mm": 3.7403,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.802766,
+"g_per_mm": 3.96403,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.723975,
+"g_per_mm": 4.242,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.792605,
+"g_per_mm": 4.9973,
+"limit": "sag"
+}
+],
+"180": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003338,
+"g_per_mm": 1.3781,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005258,
+"g_per_mm": 1.45329,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005015,
+"g_per_mm": 1.66929,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.007929,
+"g_per_mm": 1.76845,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.01138,
+"g_per_mm": 1.88692,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.012792,
+"g_per_mm": 2.11552,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003266,
+"g_per_mm": 1.42484,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005612,
+"g_per_mm": 1.50124,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005051,
+"g_per_mm": 1.73878,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.008416,
+"g_per_mm": 1.8412,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.013301,
+"g_per_mm": 1.96393,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01528,
+"g_per_mm": 2.21,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003309,
+"g_per_mm": 1.49494,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.00582,
+"g_per_mm": 1.57419,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005092,
+"g_per_mm": 1.84485,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.008717,
+"g_per_mm": 1.9497,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.013439,
+"g_per_mm": 2.07772,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01571,
+"g_per_mm": 2.35407,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003403,
+"g_per_mm": 1.56525,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005951,
+"g_per_mm": 1.64673,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.005159,
+"g_per_mm": 1.9493,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.00889,
+"g_per_mm": 2.06329,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.013532,
+"g_per_mm": 2.20228,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.015822,
+"g_per_mm": 2.49672,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.537291,
+"g_per_mm": 2.97851,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.579458,
+"g_per_mm": 3.16078,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.829422,
+"g_per_mm": 3.87563,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.741748,
+"g_per_mm": 4.10992,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.681687,
+"g_per_mm": 4.38587,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.745079,
+"g_per_mm": 5.1686,
+"limit": "sag"
+}
+],
+"190": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003002,
+"g_per_mm": 1.43927,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.00478,
+"g_per_mm": 1.52522,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004518,
+"g_per_mm": 1.74305,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.007188,
+"g_per_mm": 1.84953,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.010358,
+"g_per_mm": 1.96901,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01165,
+"g_per_mm": 2.20574,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00294,
+"g_per_mm": 1.486,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005086,
+"g_per_mm": 1.57317,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004549,
+"g_per_mm": 1.81254,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.007608,
+"g_per_mm": 1.92227,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.012026,
+"g_per_mm": 2.04602,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.013812,
+"g_per_mm": 2.30022,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002977,
+"g_per_mm": 1.55611,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005268,
+"g_per_mm": 1.64612,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004584,
+"g_per_mm": 1.91861,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.007867,
+"g_per_mm": 2.03078,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.012146,
+"g_per_mm": 2.15981,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01418,
+"g_per_mm": 2.44429,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.003057,
+"g_per_mm": 1.62641,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.005382,
+"g_per_mm": 1.71867,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004641,
+"g_per_mm": 2.02306,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.008017,
+"g_per_mm": 2.14437,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.012225,
+"g_per_mm": 2.28437,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.014277,
+"g_per_mm": 2.58694,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.488517,
+"g_per_mm": 3.08315,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.553068,
+"g_per_mm": 3.26868,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.758928,
+"g_per_mm": 4.00548,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.704366,
+"g_per_mm": 4.25074,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.631217,
+"g_per_mm": 4.51429,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.692268,
+"g_per_mm": 5.31266,
+"limit": "sag"
+}
+],
+"200": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002713,
+"g_per_mm": 1.50124,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004347,
+"g_per_mm": 1.58293,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004091,
+"g_per_mm": 1.82128,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.006548,
+"g_per_mm": 1.9304,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.009466,
+"g_per_mm": 2.05537,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.010657,
+"g_per_mm": 2.31303,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00266,
+"g_per_mm": 1.54798,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004612,
+"g_per_mm": 1.63088,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004117,
+"g_per_mm": 1.89078,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.006913,
+"g_per_mm": 2.00315,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.010924,
+"g_per_mm": 2.13238,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.012548,
+"g_per_mm": 2.40751,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002692,
+"g_per_mm": 1.61808,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004769,
+"g_per_mm": 1.70383,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004147,
+"g_per_mm": 1.99685,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.007139,
+"g_per_mm": 2.11165,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.011026,
+"g_per_mm": 2.24617,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.012867,
+"g_per_mm": 2.55158,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002761,
+"g_per_mm": 1.68839,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004869,
+"g_per_mm": 1.77637,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.004197,
+"g_per_mm": 2.10129,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.007269,
+"g_per_mm": 2.22524,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.011095,
+"g_per_mm": 2.37073,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.01295,
+"g_per_mm": 2.69423,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.432498,
+"g_per_mm": 3.18618,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.50613,
+"g_per_mm": 3.38023,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.677055,
+"g_per_mm": 4.13106,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.656993,
+"g_per_mm": 4.4003,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.598902,
+"g_per_mm": 4.6925,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.656732,
+"g_per_mm": 5.52907,
+"limit": "sag"
+}
+],
+"210": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002465,
+"g_per_mm": 1.5622,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003967,
+"g_per_mm": 1.65059,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003722,
+"g_per_mm": 1.89525,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005986,
+"g_per_mm": 2.01209,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.00868,
+"g_per_mm": 2.14213,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.009787,
+"g_per_mm": 2.40772,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002419,
+"g_per_mm": 1.60894,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004199,
+"g_per_mm": 1.69855,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003744,
+"g_per_mm": 1.96474,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.006306,
+"g_per_mm": 2.08483,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.00996,
+"g_per_mm": 2.21915,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.011451,
+"g_per_mm": 2.5022,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002446,
+"g_per_mm": 1.67904,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004335,
+"g_per_mm": 1.7715,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003771,
+"g_per_mm": 2.07081,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.006502,
+"g_per_mm": 2.19334,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.010048,
+"g_per_mm": 2.33294,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.011729,
+"g_per_mm": 2.64627,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002506,
+"g_per_mm": 1.74935,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004422,
+"g_per_mm": 1.84404,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003813,
+"g_per_mm": 2.17526,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.006617,
+"g_per_mm": 2.30693,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.010108,
+"g_per_mm": 2.4575,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.011802,
+"g_per_mm": 2.78892,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.386624,
+"g_per_mm": 3.2955,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.483682,
+"g_per_mm": 3.48833,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.603397,
+"g_per_mm": 4.29036,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.618433,
+"g_per_mm": 4.54071,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.555979,
+"g_per_mm": 4.82051,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.61426,
+"g_per_mm": 5.68533,
+"limit": "sag"
+}
+],
+"220": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002247,
+"g_per_mm": 1.62438,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003639,
+"g_per_mm": 1.71237,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.0034,
+"g_per_mm": 1.97409,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005499,
+"g_per_mm": 2.09255,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.00799,
+"g_per_mm": 2.22545,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.009019,
+"g_per_mm": 2.51054,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002207,
+"g_per_mm": 1.67112,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003843,
+"g_per_mm": 1.76032,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00342,
+"g_per_mm": 2.04358,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005779,
+"g_per_mm": 2.1653,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.009122,
+"g_per_mm": 2.30246,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.010491,
+"g_per_mm": 2.60502,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002231,
+"g_per_mm": 1.74122,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003962,
+"g_per_mm": 1.83327,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003443,
+"g_per_mm": 2.14965,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005952,
+"g_per_mm": 2.27381,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.009198,
+"g_per_mm": 2.41625,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.010734,
+"g_per_mm": 2.74909,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002283,
+"g_per_mm": 1.81153,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.004038,
+"g_per_mm": 1.90581,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.00348,
+"g_per_mm": 2.2541,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.006054,
+"g_per_mm": 2.3874,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.00925,
+"g_per_mm": 2.54081,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.010798,
+"g_per_mm": 2.89174,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.360164,
+"g_per_mm": 3.38816,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.447684,
+"g_per_mm": 3.60314,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.555003,
+"g_per_mm": 4.40091,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.579765,
+"g_per_mm": 4.68721,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.528366,
+"g_per_mm": 4.99344,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.580513,
+"g_per_mm": 5.88752,
+"limit": "sag"
+}
+],
+"230": [
+{
+"name": "L20",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002059,
+"g_per_mm": 1.68453,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003351,
+"g_per_mm": 1.77922,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003119,
+"g_per_mm": 2.04765,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005064,
+"g_per_mm": 2.17465,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.007381,
+"g_per_mm": 2.31018,
+"limit": "sag"
+},
+{
+"name": "L20",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.008339,
+"g_per_mm": 2.60624,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002023,
+"g_per_mm": 1.73126,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003531,
+"g_per_mm": 1.82717,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003136,
+"g_per_mm": 2.11714,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005311,
+"g_per_mm": 2.24739,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.008386,
+"g_per_mm": 2.38719,
+"limit": "sag"
+},
+{
+"name": "L30",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.009647,
+"g_per_mm": 2.70073,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.002045,
+"g_per_mm": 1.80137,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003637,
+"g_per_mm": 1.90012,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003156,
+"g_per_mm": 2.22321,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005464,
+"g_per_mm": 2.3559,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.008453,
+"g_per_mm": 2.50099,
+"limit": "sag"
+},
+{
+"name": "L45",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.009861,
+"g_per_mm": 2.8448,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.00209,
+"g_per_mm": 1.87168,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.003704,
+"g_per_mm": 1.97267,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.003189,
+"g_per_mm": 2.32766,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.005554,
+"g_per_mm": 2.46949,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.008499,
+"g_per_mm": 2.62555,
+"limit": "sag"
+},
+{
+"name": "L60",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.009917,
+"g_per_mm": 2.98745,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 6.0,
+"kg_per_mm": 0.312855,
+"g_per_mm": 3.50215,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 2,
+"S": 8.0,
+"kg_per_mm": 0.42441,
+"g_per_mm": 3.71734,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 6.0,
+"kg_per_mm": 0.492669,
+"g_per_mm": 4.55168,
+"limit": "buckling"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 8.0,
+"kg_per_mm": 0.549538,
+"g_per_mm": 4.83596,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 3,
+"S": 10.0,
+"kg_per_mm": 0.495306,
+"g_per_mm": 5.1306,
+"limit": "sag"
+},
+{
+"name": "slot",
+"perims": 4,
+"S": 10.0,
+"kg_per_mm": 0.548231,
+"g_per_mm": 6.0582,
+"limit": "sag"
+}
+]
+}
+}
