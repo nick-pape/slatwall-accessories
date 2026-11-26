@@ -1,0 +1,3 @@
+# System packages, installed on every workspace start (see /etc/claude-code/CLAUDE.md).
+# Xvfb and OpenGL are already in the workspace image.
+ffmpeg   # turntable videos / frame grabs of renders
